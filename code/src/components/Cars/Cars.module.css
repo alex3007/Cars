@@ -1,0 +1,30 @@
+.autoContainer{
+    display: flex;
+    padding-top: 20px;
+}
+
+.autoContainer h1 {
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.back{
+    position: fixed;
+    width: 650px;
+    height: 800px;
+    top: -100px;
+    left: -140px;
+    background: #d5685e;
+    border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+
+    .autoContainer h1 {
+        font-size: 20px;
+        top: 25px;
+    }
+
+}

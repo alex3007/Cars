@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cars/static/css/main.7be73c38.chunk.css",
+    "main.js": "/Cars/static/js/main.70f22de6.chunk.js",
+    "main.js.map": "/Cars/static/js/main.70f22de6.chunk.js.map",
+    "runtime~main.js": "/Cars/static/js/runtime~main.559a7082.js",
+    "runtime~main.js.map": "/Cars/static/js/runtime~main.559a7082.js.map",
+    "static/js/2.19fe99b7.chunk.js": "/Cars/static/js/2.19fe99b7.chunk.js",
+    "static/js/2.19fe99b7.chunk.js.map": "/Cars/static/js/2.19fe99b7.chunk.js.map",
+    "index.html": "/Cars/index.html",
+    "precache-manifest.674f962009fa28984df33122732888c2.js": "/Cars/precache-manifest.674f962009fa28984df33122732888c2.js",
+    "service-worker.js": "/Cars/service-worker.js",
+    "static/css/main.7be73c38.chunk.css.map": "/Cars/static/css/main.7be73c38.chunk.css.map"
+  }
+}

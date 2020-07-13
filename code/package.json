@@ -11,7 +11,7 @@
     "react-modal": "^3.11.2",
     "node-sass": "^4.14.1"
   },
-  "homepage": "https://alex3007.github.io/Shop",
+  "homepage": "https://alex3007.github.io/Cars",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
