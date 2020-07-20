@@ -1,6 +1,5 @@
 import React from 'react';
 import cls from './CarItem.module.sass';
-import s from './CarItem.module.css';
 
 const CarItem = (props) => {
     let name = props.model;
@@ -14,34 +13,33 @@ const CarItem = (props) => {
                 <div className={cls.cardImg}>
                     <img src={image}/>
                 </div>
-
                 <div className={cls.cardInfo}>
-
                     <h2 className={cls.name}>
                         {name}
                     </h2>
-                    <h3 className={cls.price}>${cost}</h3>
+                    <h3 className={cls.price}>
+                        ${cost}
+                    </h3>
                     <span className={cls.rating}>
-        <i className='fa fa-star'></i>
-        <i className='fa fa-star'></i>
-        <i className='fa fa-star'></i>
-        <i className='fa fa-star'></i>
-        <i className='fa fa-star'></i>
-      </span>
-                    <p></p>
+                      <i className='fa fa-star'/>
+                      <i className='fa fa-star'/>
+                      <i className='fa fa-star'/>
+                      <i className='fa fa-star'/>
+                      <i className='fa fa-star'/>
+                    </span>
                 </div>
-
                 <div className={cls.cardDescription}>
-                    <p><b className={cls.title}>{name}</b> {description} </p>
+                    <p>
+                        <b className={cls.title}>{name}</b>
+                        {description}
+                    </p>
 
                     <div className={cls.prodCtaOrder}>
                         <h4 className={cls.ctaText}>
                             Описание
                         </h4>
                     </div>
-
                 </div>
-
             </div>
         </div>
     )

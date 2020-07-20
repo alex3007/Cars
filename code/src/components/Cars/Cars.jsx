@@ -13,7 +13,7 @@ export default class Cars extends React.Component {
                 cost: '12 000',
                 image: 'https://www.kia.by/cache/imagecache/rw960--rh550--file-media-modelImages-virtual360ModelImages-rio-fieryred-KiaRio_Environment_fieryred_00027.png'
             }
-                ,{
+                , {
                     id: 2,
                     model: 'KIA Ceed',
                     description: 'подчеркнет ваш статус и принесет удовольствие от жизни. Он вам точно подойдет! ',
@@ -31,12 +31,17 @@ export default class Cars extends React.Component {
     }
 
     render() {
-        let autoItems = this.state.cars.map(m => <CarItem key={m.id} model={m.model} description={m.description}
-                                                          image={m.image} cost={m.cost}/>);
+        let autoItems = this.state.cars.map(m =>
+            <CarItem key={m.id}
+                     model={m.model}
+                     description={m.description}
+                     image={m.image} cost={m.cost}/>);
         return (
             <div className={cls.autoContainer}>
-                <div className={cls.back}></div>
-                <div className={cls.autoItems}><h1>Автомобили KIA</h1>{autoItems}</div>
+                <div className={cls.autoItems}>
+                    <h1>Автомобили KIA</h1>
+                    {autoItems}
+                </div>
             </div>
         )
     }

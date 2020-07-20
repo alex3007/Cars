@@ -7,10 +7,9 @@ function App(props) {
     return (
         <div className="App">
             <Header/>
-            <div>
-                <Cars/>
-            </div>
+            <Cars/>
         </div>
     )
 }
+
 export default App;

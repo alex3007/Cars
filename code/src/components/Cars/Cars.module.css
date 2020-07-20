@@ -10,7 +10,8 @@
     left: 30px;
 }
 
-.back{
+.autoItems:before{
+    content: '';
     position: fixed;
     width: 650px;
     height: 800px;

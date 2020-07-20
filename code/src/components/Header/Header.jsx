@@ -6,7 +6,9 @@ const Header = (props) => {
     return (
         <header className={cls.header}>
             <p>Личный кабинет:</p>
-            <Auth/>
+            <div>
+                <Auth/>
+            </div>
         </header>
     );
 };
