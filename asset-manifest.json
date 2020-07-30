@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Cars/static/css/main.38a64298.chunk.css",
-    "main.js": "/Cars/static/js/main.44fb223d.chunk.js",
-    "main.js.map": "/Cars/static/js/main.44fb223d.chunk.js.map",
+    "main.css": "/Cars/static/css/main.a4b0cc60.chunk.css",
+    "main.js": "/Cars/static/js/main.1fe6888f.chunk.js",
+    "main.js.map": "/Cars/static/js/main.1fe6888f.chunk.js.map",
     "runtime~main.js": "/Cars/static/js/runtime~main.559a7082.js",
     "runtime~main.js.map": "/Cars/static/js/runtime~main.559a7082.js.map",
     "static/js/2.fbcbe3ee.chunk.js": "/Cars/static/js/2.fbcbe3ee.chunk.js",
     "static/js/2.fbcbe3ee.chunk.js.map": "/Cars/static/js/2.fbcbe3ee.chunk.js.map",
     "index.html": "/Cars/index.html",
-    "precache-manifest.a5ba0b9d58be3079e50b5f7b0ebb332b.js": "/Cars/precache-manifest.a5ba0b9d58be3079e50b5f7b0ebb332b.js",
+    "precache-manifest.b6fd76b272de9a254470c6be5c54c906.js": "/Cars/precache-manifest.b6fd76b272de9a254470c6be5c54c906.js",
     "service-worker.js": "/Cars/service-worker.js",
-    "static/css/main.38a64298.chunk.css.map": "/Cars/static/css/main.38a64298.chunk.css.map"
+    "static/css/main.a4b0cc60.chunk.css.map": "/Cars/static/css/main.a4b0cc60.chunk.css.map"
   }
 }
