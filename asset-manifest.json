@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Cars/static/css/main.e7b929d5.chunk.css",
+    "main.css": "/Cars/static/css/main.af8b5d86.chunk.css",
     "main.js": "/Cars/static/js/main.c0092e7c.chunk.js",
     "main.js.map": "/Cars/static/js/main.c0092e7c.chunk.js.map",
     "runtime~main.js": "/Cars/static/js/runtime~main.559a7082.js",
@@ -8,8 +8,8 @@
     "static/js/2.fbcbe3ee.chunk.js": "/Cars/static/js/2.fbcbe3ee.chunk.js",
     "static/js/2.fbcbe3ee.chunk.js.map": "/Cars/static/js/2.fbcbe3ee.chunk.js.map",
     "index.html": "/Cars/index.html",
-    "precache-manifest.31d89479d9dff5e94747f93da2b2922f.js": "/Cars/precache-manifest.31d89479d9dff5e94747f93da2b2922f.js",
+    "precache-manifest.18d7c097739676d0a2fe6def7678110c.js": "/Cars/precache-manifest.18d7c097739676d0a2fe6def7678110c.js",
     "service-worker.js": "/Cars/service-worker.js",
-    "static/css/main.e7b929d5.chunk.css.map": "/Cars/static/css/main.e7b929d5.chunk.css.map"
+    "static/css/main.af8b5d86.chunk.css.map": "/Cars/static/css/main.af8b5d86.chunk.css.map"
   }
 }
