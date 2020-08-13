@@ -1,7 +1,7 @@
 import React from 'react';
-import cls from './CarItem.module.sass';
+import cls from './Item.module.sass';
 
-const CarItem = (props) => {
+const Item = (props) => {
     let name = props.model;
     let description = props.description;
     let image = props.image;
@@ -15,7 +15,7 @@ const CarItem = (props) => {
                 </div>
                 <div className={cls.cardInfo}>
                     <h2 className={cls.name}>
-                        {name}
+                        KIA <br/> {name}
                     </h2>
                     <h3 className={cls.price}>
                         ${cost}
@@ -29,15 +29,18 @@ const CarItem = (props) => {
                     </span>
                 </div>
                 <div className={cls.cardDescription}>
-                    <p>
-                        <b className={cls.title}>{name}</b>
-                        {description}
+                    <p className={cls.descriptionText}>
+                        <b className={cls.title}>{name}</b> {description}
                     </p>
-
-                    <div className={cls.prodCtaOrder}>
-                        <h4 className={cls.ctaText}>
-                            Описание
-                        </h4>
+                    <div className={cls.prodAction}>
+                        <p className={cls.actionTitle}>
+                            {props.lang === 'eng'? 'Gift' : 'Подарок'}
+                            <i className='fa fa-gift'/>
+                        </p>
+                        <p className={cls.actionText}>
+                            {props.lang === 'eng'? 'Winter tires are for every purchaser':
+                                'Зимние шины каждому покупателю'}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -45,4 +48,4 @@ const CarItem = (props) => {
     )
 
 };
-export default CarItem;
+export default Item;

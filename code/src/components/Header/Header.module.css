@@ -10,19 +10,29 @@
     color: #f6f6f6;
     z-index: 1;
     box-shadow: 0 0 10px #888888;
+    display: flex;
+    align-items: end;
+    flex-flow: column;
+    justify-content: center;
+
 }
 
-.header div {
-    color: white;
-    float: right;
-    margin-right: 10px;
+.langBtn{
+    margin: 5px;
+    background-color: #ffffff;
+    width: 100px;
+    padding: 3px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    color: #d5685e;
 }
-.header p {
-    color: white;
-    float: right;
-    margin-top: 20px;
-    margin-right: 10px;
+
+.langBtn:hover{
+    background-color: #e6d5c9;
+    transition: all 0.5s;
 }
+
 @media (max-width: 500px) {
 
     .header  {
