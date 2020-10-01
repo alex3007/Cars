@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/Cars/static/css/main.5b2865dd.chunk.css",
-    "main.js": "/Cars/static/js/main.63b16b05.chunk.js",
-    "main.js.map": "/Cars/static/js/main.63b16b05.chunk.js.map",
+    "main.css": "/Cars/static/css/main.2e868d0f.chunk.css",
+    "main.js": "/Cars/static/js/main.d9b19c1a.chunk.js",
+    "main.js.map": "/Cars/static/js/main.d9b19c1a.chunk.js.map",
     "runtime~main.js": "/Cars/static/js/runtime~main.559a7082.js",
     "runtime~main.js.map": "/Cars/static/js/runtime~main.559a7082.js.map",
-    "static/js/2.f18ed76e.chunk.js": "/Cars/static/js/2.f18ed76e.chunk.js",
-    "static/js/2.f18ed76e.chunk.js.map": "/Cars/static/js/2.f18ed76e.chunk.js.map",
+    "static/css/2.11829350.chunk.css": "/Cars/static/css/2.11829350.chunk.css",
+    "static/js/2.5c181106.chunk.js": "/Cars/static/js/2.5c181106.chunk.js",
+    "static/js/2.5c181106.chunk.js.map": "/Cars/static/js/2.5c181106.chunk.js.map",
     "index.html": "/Cars/index.html",
-    "precache-manifest.42b467a606a9a5610d20da8ed419bd89.js": "/Cars/precache-manifest.42b467a606a9a5610d20da8ed419bd89.js",
+    "precache-manifest.79f1dcc18430070d3069934915fe5015.js": "/Cars/precache-manifest.79f1dcc18430070d3069934915fe5015.js",
     "service-worker.js": "/Cars/service-worker.js",
-    "static/css/main.5b2865dd.chunk.css.map": "/Cars/static/css/main.5b2865dd.chunk.css.map"
+    "static/css/2.11829350.chunk.css.map": "/Cars/static/css/2.11829350.chunk.css.map",
+    "static/css/main.2e868d0f.chunk.css.map": "/Cars/static/css/main.2e868d0f.chunk.css.map",
+    "static/media/car-sell.jpg": "/Cars/static/media/car-sell.bdd5fc5a.jpg",
+    "static/media/car-service.jpg": "/Cars/static/media/car-service.e1dfe37c.jpg",
+    "static/media/car-wash.jpg": "/Cars/static/media/car-wash.8eaafe32.jpg",
+    "static/media/index.css": "/Cars/static/media/sv-bg.0407e63b.jpg",
+    "static/media/ceed.png": "/Cars/static/media/ceed.69380c57.png",
+    "static/media/rio.png": "/Cars/static/media/rio.4b28b085.png",
+    "static/media/sportage.png": "/Cars/static/media/sportage.6694355a.png"
   }
 }

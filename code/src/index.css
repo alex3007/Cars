@@ -1,9 +1,439 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:700italic);
+
+
 body {
-  margin: 0;
-  font-family: 'Rubik',
-    sans-serif;
-  padding-top: 70px;
-  color: #333;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+
+*,
+*:focus {
+    outline: none !important
+}
+
+a {
+    color: #2d2d2d
+}
+
+a:hover,
+a:focus {
+    color: #0c86b6;
+    text-decoration: none;
+}
+
+/*------Header-------*/
+.header{
+    background-color:  #814252;
+}
+
+.bgColor{
+    background-color: #000000;
+}
+
+.langArea{
+    background-color: #814252;
+}
+
+.langBtn{
+    width: 50%;
+    color: #f7f7f7;
+}
+
+.langBtn:hover {
+    color: #f7f7f7;
+}
+
+.navColor{
+ color: #f7f7f7!important;
+}
+
+.navBrand{
+    font-size: 30px!important;
+    font-weight: bold;
+    color: #f7f7f7!important;
+}
+/*--------Top-------*/
+
+#home {
+    padding: 0;
+    color: #ffffff;
+    background-image: url(../src/assets/images/cover/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.homeArea{
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+#home h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+#home a {
+    margin: 0 5px
+}
+
+#home h3 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.banner-content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+}
+
+.heroText {
+    opacity: .7;
+}
+
+.heroText h2 {
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 80px;
+    padding-bottom: 0;
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 0 1px #000;
+}
+
+.heroText h2 strong {
+    font-size: 50px;
+}
+
+.page {
+    overflow: hidden
+}
+
+.page .container {
+    padding: 60px 0;
+}
+
+.page .content.cover {
+    padding: 300px 0
+}
+
+/*--------Services-------*/
+
+#services {
+    background-color: #fff;
+    border-bottom: solid 1px #e7e7e7;
+    background-image: url(../src/assets/images/cover/sv-bg.jpg);
+}
+
+.service-icon {
+    border-radius: 129px;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+}
+.service-icon img {
+    width: 180px;
+}
+.service-icon i {
+    font-size: 3em;
+    color: #28A09F;
+}
+
+/*--------Models-------*/
+
+#models {
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../src/assets/images/cover/car.jpg');
+}
+
+.modelsContainer {
+    background-color: rgba(129, 66, 82, 0.85);
+}
+
+/*--------Contacts-------*/
+
+
+#contact {
+    background: url(../src/assets/images/cover/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contactContainer {
+    background-color: rgba(0, 0, 0, 0.78);
+    padding: 65px 0 !important;
+}
+
+#contact,
+#contact a,
+#contact a:hover,
+#contact a:focus {
+    color: #fff
+}
+
+#contact .heading .border {
+    background-color: #fff
+}
+
+#contact a {
+    display: block
+}
+
+#footer {
+    padding: 40px 0;
+    color: #ccc;
+    text-align: center;
+    background-color: #000000;
+}
+
+#footer ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#footer hr{
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+}
+
+#footer a,
+#footer a:hover,
+#footer a:focus {
+    color: #fff;
+    margin-right: 10px;
+
+}
+
+#footer .social {
+    margin-bottom: 20px
+}
+
+#footer .social li .facebook:hover,
+#footer .social li .facebook:focus {
+    color: #3b5998
+}
+
+#footer .social li .twitter:hover,
+#footer .social li .twitter:focus {
+    color: #00aced
+}
+
+#footer .social li .google-plus:hover,
+#footer .social li .google-plus:focus {
+    color: #d34836
+}
+
+#footer .social li .dribbble:hover,
+#footer .social li .dribbble:focus {
+    color: #ea4c89
+}
+
+#footer .copyright {
+    margin-bottom: 0
+}
+
+/*-----Form-----*/
+
+
+.form.contact .input-group {
+    width: 90%;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.form.contact .input-group i {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    line-height: 66px;
+    left: 17px;
+}
+
+.form.contact .input-group input.lg,
+.form.contact .input-group textarea.lg {
+    padding: 0 10px;
+    text-indent: 40px;
+    margin: 0;
+    height: 66px;
+    width: 100%;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #EEEEEE;
+    border: 1px solid #d5d5d5;
+    outline: none;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.form.contact .input-group textarea.lg {
+    height: 162px;
+    text-indent: 10px;
+    padding-top: 15px;
+    resize: none;
+}
+
+.form.contact .input-group input:focus,
+.form.contact .input-group textarea:focus {
+    border-color: #6ebff3;
+}
+
+.form.contact .input-group input.err,
+.form.contact .input-group textarea.err {
+    border-color: #f5b075 !important;
+}
+
+.form.contact .input-group button.submit {
+    width: 100%;
+    height: 66px;
+    background: #6c2626;
+    border: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    font-weight: 300;
+}
+
+.form.contact .input-group button.submit:hover {
+    background: #844a4a;
+}
+
+.form.contact #message_sent {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 100000;
+    background: #6ebff3;
+    display: none;
+}
+
+.form.contact #message_sent i.fa {
+    font-size: 120px;
+    position: relative;
+    text-align: center;
+    line-height: 0;
+    top: 50%;
+    margin: auto;
+    vertical-align: middle;
+    color: #fff;
+    display: none;
+}
+
+.form.contact #message_sent p {
+    font-size: 45px;
+    font-weight: 100;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    line-height: 0;
+    top: 54%;
+    display: none;
+}
+
+.form.contact.style-2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.form.contact.style-2 .input-group input,
+.form.contact.style-2 .input-group textarea {
+    box-shadow: 0 0 1px 0 rgba(230, 230, 230, 1);
+}
+
+.form.contact.style-2 .input-group input:focus,
+.form.contact.style-2 .input-group textarea:focus {
+    box-shadow: 0 0 4px 0 rgba(230, 230, 230, 1);
+}
+
+.form.contact .input-group.tight {
+    margin-right: 2%;
+    float: left;
+}
+
+.form.contact .input-group.tight.second {
+    margin-right: 0;
+}
+
+.form.contact .input-group.tight input.lg {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .navColor{
+        text-align: center;
+    }
+    }
+
+
+@media (max-width: 767px) {
+    .page .content.cover {
+        padding: 160px 0
+    }
+
+    .heroText h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .heroText h2 strong {
+        font-size: 45px;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 35px;
+    }
+
+    .nav > li > a {
+        padding: 2px 15px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .page .content.cover {
+        padding: 80px 0
+    }
+
+    .heroText h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .heroText h2 strong {
+        font-size: 25px;
+    }
+}
