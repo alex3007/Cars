@@ -39,6 +39,12 @@ a:focus {
 /*------Header-------*/
 .header{
     background-color:  #814252;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+
 }
 
 .bgColor{
@@ -52,14 +58,38 @@ a:focus {
 .langBtn{
     width: 50%;
     color: #f7f7f7;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
-.langBtn:hover {
-    color: #f7f7f7;
+.langBtn:hover p {
+    color: rgba(198, 195, 195, 0.8);
+    cursor: pointer;
 }
 
-.navColor{
+
+.navLink{
  color: #f7f7f7!important;
+    margin-right: 10px;
+    transition: 0.3s;
+    padding: 5px 10px 8px 10px;
+    text-align: center;
+}
+
+.navLink:hover{
+    color: rgba(210, 161, 161, 0.9)!important;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.activeLink{
+    text-decoration: none;
+    background-color: rgba(247, 247, 247, 0.3);
+    color: rgba(210, 161, 161, 0.9)!important;
+
+
+
 }
 
 .navBrand{
@@ -67,11 +97,16 @@ a:focus {
     font-weight: bold;
     color: #f7f7f7!important;
 }
+
+
 /*--------Top-------*/
 
 #home {
+    padding-top: 100px;
+
+}
+.page{
     padding: 0;
-    color: #ffffff;
     background-image: url(../src/assets/images/cover/home.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -143,6 +178,8 @@ a:focus {
     background-color: #fff;
     border-bottom: solid 1px #e7e7e7;
     background-image: url(../src/assets/images/cover/sv-bg.jpg);
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .service-icon {
@@ -160,7 +197,9 @@ a:focus {
     font-size: 3em;
     color: #28A09F;
 }
-
+.heading{
+    margin-bottom: 50px;
+}
 /*--------Models-------*/
 
 #models {
@@ -173,6 +212,29 @@ a:focus {
 
 .modelsContainer {
     background-color: rgba(129, 66, 82, 0.85);
+}
+
+.autoContainer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.autoContainer h1 {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+@media (max-width: 500px) {
+
+    .autoContainer h1 {
+        font-size: 20px;
+        top: 25px;
+    }
+
 }
 
 /*--------Contacts-------*/

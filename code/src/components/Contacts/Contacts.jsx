@@ -7,9 +7,7 @@ const Contacts = (props) => {
                 <div className="container">
                     <div className="content cover text-center">
                         <div className="heading">
-                            <h2>Getting in touch</h2>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/><br/></p>
+                            <h2>{props.lang === 'ru' ? 'Обратня связь' : 'Getting in touch'}</h2>
                         </div>
                         <div className="row">
                             <span id="message"></span>
@@ -19,28 +17,28 @@ const Contacts = (props) => {
 
                     <span className="input-group">
                         <i className="fa fa-user"></i>
-                        <input type="text" name="contactName" id="contactName" className="lg" placeholder="Name"/>
+                        <input type="text" name="contactName" id="contactName" className="lg" placeholder={props.lang === 'ru' ? 'Имя' : 'Name'}/>
                     </span>
 
                                 <span className="input-group">
                         <i className="fa fa-envelope"></i>
                         <input type="text" name="contactEmail" id="contactAddress" className="lg"
-                               placeholder="Email Address"/>
+                               placeholder={props.lang === 'ru' ? 'Почта' : 'Email'}/>
                     </span>
 
                                 <span className="input-group">
                         <i className="fa fa-book"></i>
                         <input type="text" name="contactSubject" id="contactSubject" className="lg"
-                               placeholder="Subject"/>
+                               placeholder={props.lang === 'ru' ? 'Тема' : 'Subject'}/>
                     </span>
 
                                 <span className="input-group">
                         <textarea name="contactMessage" id="contactMessage" className="lg"
-                                  placeholder="What's on your mind?"></textarea>
+                                  placeholder={props.lang === 'ru' ? 'Ваши пожелания...' : 'What\'s on your mind?'}/>
                     </span>
 
                                 <span className="input-group">
-                    	<button className="submit" id="submit_contact" data-loading-text="SENDING...">SEND</button>
+                    	<button className="submit" id="submit_contact" data-loading-text="SENDING...">{props.lang === 'ru' ? 'ОТПРАВИТЬ' : 'SEND'}</button>
                     </span>
 
                             </form>

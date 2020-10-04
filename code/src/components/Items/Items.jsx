@@ -1,6 +1,5 @@
 import React from 'react';
 import Item from './Item/Item';
-import cls from './Items.module.css';
 import rio from '../../assets/images/models/rio.png'
 import ceed from '../../assets/images/models/ceed.png'
 import sportage from '../../assets/images/models/sportage.png'
@@ -47,8 +46,8 @@ export default class Items extends React.Component {
         return (
             <section id="models" className="page space">
                 <div className="modelsContainer text-center">
-                    <div className={cls.autoContainer}>
-                        <div className={cls.autoItems}>
+                    <div className="autoContainer">
+                        <div className="autoItems">
                             <h1>{lang === 'eng' ? 'KIA models' : 'Модели KIA'}</h1>
                             {autoItems}
                         </div>

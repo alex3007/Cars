@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45c1a04abe79877f6eab4cce998116ab",
+    "revision": "0e0def05ddef139bf32dc73f4f1f91e1",
     "url": "/Cars/index.html"
   },
   {
-    "revision": "c36e90e1a7e38ca3c538",
+    "revision": "3806067ed55812ed6195",
     "url": "/Cars/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "1093e0c53567a1c4cfed",
-    "url": "/Cars/static/css/main.2e868d0f.chunk.css"
+    "revision": "17784de6b6b9743cfe7a",
+    "url": "/Cars/static/css/main.14c32606.chunk.css"
   },
   {
-    "revision": "c36e90e1a7e38ca3c538",
-    "url": "/Cars/static/js/2.5c181106.chunk.js"
+    "revision": "3806067ed55812ed6195",
+    "url": "/Cars/static/js/2.473d7b37.chunk.js"
   },
   {
-    "revision": "1093e0c53567a1c4cfed",
-    "url": "/Cars/static/js/main.d9b19c1a.chunk.js"
+    "revision": "17784de6b6b9743cfe7a",
+    "url": "/Cars/static/js/main.bfa734b7.chunk.js"
   },
   {
     "revision": "0c80bbc7712348d655cd",
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cars/static/media/sportage.6694355a.png"
   },
   {
-    "revision": "0407e63b4a73841daedf9de461b3d56c",
-    "url": "/Cars/static/media/sv-bg.0407e63b.jpg"
+    "revision": "8efe46f1d98c6e771c0b7618d329f60c",
+    "url": "/Cars/static/media/sv-bg.8efe46f1.jpg"
   }
 ]);
