@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e0def05ddef139bf32dc73f4f1f91e1",
+    "revision": "1510478aed187f05542b3dfb15cdd41b",
     "url": "/Cars/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cars/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "17784de6b6b9743cfe7a",
-    "url": "/Cars/static/css/main.14c32606.chunk.css"
+    "revision": "c221d309b8dcf2b229e0",
+    "url": "/Cars/static/css/main.667d6fb7.chunk.css"
   },
   {
     "revision": "3806067ed55812ed6195",
     "url": "/Cars/static/js/2.473d7b37.chunk.js"
   },
   {
-    "revision": "17784de6b6b9743cfe7a",
-    "url": "/Cars/static/js/main.bfa734b7.chunk.js"
+    "revision": "c221d309b8dcf2b229e0",
+    "url": "/Cars/static/js/main.2daf62f3.chunk.js"
   },
   {
     "revision": "0c80bbc7712348d655cd",
@@ -36,20 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cars/static/media/car-wash.8eaafe32.jpg"
   },
   {
-    "revision": "2df704c75e81c6e2b26d6be0af1d947e",
-    "url": "/Cars/static/media/car.2df704c7.jpg"
+    "revision": "64a314f9482df7f73bbc9c4ce661ef03",
+    "url": "/Cars/static/media/car.64a314f9.jpg"
   },
   {
     "revision": "69380c57eaf73dd0b0ed3641070d9369",
     "url": "/Cars/static/media/ceed.69380c57.png"
   },
   {
-    "revision": "3746242c709971f4c85bb553af7c58de",
-    "url": "/Cars/static/media/contact.3746242c.jpg"
+    "revision": "93076bc2a4ad3644495b74c68b01574e",
+    "url": "/Cars/static/media/contact.93076bc2.jpg"
   },
   {
-    "revision": "41040f91bf17b36c4cc8c6bc60a1a01a",
-    "url": "/Cars/static/media/home.41040f91.jpg"
+    "revision": "4de25df4cbe167aee61e987ae6dbce84",
+    "url": "/Cars/static/media/home.4de25df4.jpg"
   },
   {
     "revision": "4b28b085286849bfa94bb6132da79205",
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cars/static/media/sportage.6694355a.png"
   },
   {
-    "revision": "8efe46f1d98c6e771c0b7618d329f60c",
-    "url": "/Cars/static/media/sv-bg.8efe46f1.jpg"
+    "revision": "8ede2198df9614b9e873b09e7fe6351b",
+    "url": "/Cars/static/media/sv-bg.8ede2198.jpg"
   }
 ]);
