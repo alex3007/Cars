@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import Items from "./components/Items/Items";
-import {HashRouter,Route, Redirect} from 'react-router-dom';
+import {HashRouter, Route, Redirect} from 'react-router-dom';
 import Top from "./components/Top/Top";
 import Services from "./components/Services/Services";
 import Contacts from "./components/Contacts/Contacts";
@@ -18,36 +18,23 @@ export default class AppJS extends React.Component {
     onChooseRu = () => {
         this.setState({lang: 'ru'});
     }
-
     onChooseEng = () => {
         this.setState({lang: 'eng'});
     }
 
-
     render() {
 
         let lang = this.state.lang
-        let langSwitch =
-            <div className="container langArea">
-                <div className="row">
-                    <div className=" col-xs-6 text-center langBtn">
-                        <p onClick={this.onChooseRu}>RU</p></div>
-                    <div onClick={this.onChooseEng}
-                         className="col-xs-6 text-center langBtn">
-                        <p>EN</p>
-                    </div>
-                </div>
-            </div>
         return (
             <div className="App">
                 <HashRouter>
-                    <header className="header">
-                        <Header lang={lang}/>
-                        {langSwitch}
-                    </header>
+                    <Header lang={lang}
+                            onChooseEng={this.onChooseEng}
+                            onChooseRu={this.onChooseRu}
+                    />
                     <Top lang={lang}/>
-                    <Services lang={lang}/>
                     <Items lang={lang}/>
+                    <Services lang={lang}/>
                     <Contacts lang={lang}/>
                     <Footer/>
                 </HashRouter>

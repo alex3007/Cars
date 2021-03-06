@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacts = (props) => {
     return (
-        <section id="contact" className="content-section form contact light space">
+        <section id="contacts" className="content-section form contact light space">
             <div className="contactContainer">
                 <div className="container">
                     <div className="content cover text-center">

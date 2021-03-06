@@ -19,13 +19,18 @@ const Footer = (props) => {
                                 </a>
                             </li>
                             <li>
+                                <a className="Linkedin" href="http://www.linkedin.com" title="Linkedin">
+                                    <i className="fa fa-linkedin fa-2x"></i>
+                                </a>
+                            </li>
+                            <li>
                                 <a className="google-plus" href="http://www.plus.google.com" title="Google+">
                                     <i className="fa fa-google-plus fa-2x"></i>
                                 </a>
                             </li>
                         </ul>
                         <p className="copyright">
-                           KIA MOTORS - 2020
+                           KIA MOTORS - 2021
                         </p>
                     </div>
                 </div>
